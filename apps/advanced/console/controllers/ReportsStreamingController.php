@@ -15,7 +15,7 @@ class ReportsStreamingController extends \yii\console\Controller
     }
 	
 	private function reportProcess($job){
-		
+		echo 'tests';
 		$groupActionMsisdn = array();
 		
 		$dkViews = TmpTransactionMediaDkView::find()->all();
