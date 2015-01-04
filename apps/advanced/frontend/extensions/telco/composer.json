@@ -1,0 +1,21 @@
+{
+    "name": "hello-extension/telco",
+    "description": "Telco like Viettel, Vinaphone, Mobiphone",
+    "type": "yii2-extension",
+    "keywords": ["telco"],
+    "license": "GPL-2.0",
+    "authors": [
+        {
+            "name": "maituanmte",
+            "email": "maituanmte@gmail.com"
+        }
+    ],
+    "require": {
+        "yiisoft/yii2": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "vega\\telco\\": ""
+        }
+    }
+}
